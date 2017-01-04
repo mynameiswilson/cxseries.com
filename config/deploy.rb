@@ -9,14 +9,17 @@ set :repo_url, 'git@github.com:mynameiswilson/cxseries.com.git'
 # This could be overridden in a stage config file
 set :branch, :master
 
+# my host is shared and does not allow exec from /tmp
+set :tmp_dir, "/home/thelocus/tmp"
+
+# set location of composer
+SSHKit.config.command_map[:composer] = "/home/thelocus/bin/composer"
+
 set :deploy_to, -> { "~/www/#{fetch(:application)}" }
 
 # Use :debug for more verbose output when troubleshooting
 set :log_level, :info
 
-# Apache users with .htaccess files:
-# it needs to be added to linked_files so it persists across deploys:
-# set :linked_files, fetch(:linked_files, []).push('.env', 'web/.htaccess')
 set :linked_files, fetch(:linked_files, []).push('.env')
 set :linked_dirs, fetch(:linked_dirs, []).push('web/app/uploads')
 

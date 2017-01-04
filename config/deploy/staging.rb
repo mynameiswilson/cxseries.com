@@ -1,5 +1,7 @@
 set :stage, :staging
 
+set :deploy_to, -> { "~/www/staging.#{fetch(:application)}" } 
+
 # Simple Role Syntax
 # ==================
 #role :app, %w{deploy@example.com}
