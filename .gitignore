@@ -31,3 +31,4 @@ bin
 .vagrant
 
 log/capistrano.log
+config/backup/
