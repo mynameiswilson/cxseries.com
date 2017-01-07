@@ -40,7 +40,8 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-theme/illdy": "1.0.35.2",
-    "wpackagist-plugin/illdy-companion": "^1.0"
+    "wpackagist-plugin/illdy-companion": "^1.0",
+    "wpackagist-plugin/jetpack": "^4.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
