@@ -1,5 +1,8 @@
 set :stage, :production
 
+#set :deploy_to, -> { "~/www/#{fetch(:application)}" }
+set :deploy_to, -> { "~/www/cxseries" }
+
 # Simple Role Syntax
 # ==================
 #role :app, %w{deploy@example.com}
