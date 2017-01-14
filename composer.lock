@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "53c2cf99c9411526feae9036968d4969",
+    "content-hash": "a7c52abccc8c29363ed38b57c5d27f47",
     "packages": [
         {
             "name": "composer/installers",
@@ -379,6 +379,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/illdy-companion/"
+        },
+        {
+            "name": "wpackagist-plugin/jch-optimize",
+            "version": "2.0.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jch-optimize/",
+                "reference": "tags/2.0.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jch-optimize.2.0.8.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jch-optimize/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
