@@ -19,6 +19,10 @@ RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]
 RewriteCond %{DOCUMENT_ROOT}/app/cache/all/$1/index.html -f [or]
 RewriteCond /Users/ben/Sites/cxseries/web/app/cache/all/$1/index.html -f
 RewriteRule ^(.*) "/app/cache/all/$1/index.html" [L]
+
+RewriteRule ^app/themes/illdy/layout/css/main.css app/themes/illdy/layout/css/main.min.css
+RewriteRule ^app/themes/illdy/style.css app/themes/illdy/style.min.css
+
 </IfModule>
 <FilesMatch "\.(html|htm)$">
 AddDefaultCharset UTF-8
