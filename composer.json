@@ -47,7 +47,7 @@
     "wpackagist-plugin/autoptimize": "^2.1",
     "wpackagist-plugin/async-javascript": "1.16.12.12",
     "wpackagist-plugin/wp-async-css": "^1.2",
-    "wpackagist-plugin/wp-super-cache": "^1.4"
+    "wpackagist-plugin/wp-fastest-cache": "0.8.6.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

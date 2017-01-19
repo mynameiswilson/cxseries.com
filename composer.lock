@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ee531d9f435f368a53a6b0860523794",
+    "content-hash": "252c2468f6ca9984284df122dbc194d2",
     "packages": [
         {
             "name": "composer/installers",
@@ -481,16 +481,16 @@
             "homepage": "https://wordpress.org/plugins/wp-async-css/"
         },
         {
-            "name": "wpackagist-plugin/wp-super-cache",
-            "version": "1.4.8",
+            "name": "wpackagist-plugin/wp-fastest-cache",
+            "version": "0.8.6.3",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-super-cache/",
-                "reference": "tags/1.4.8"
+                "url": "https://plugins.svn.wordpress.org/wp-fastest-cache/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-super-cache.1.4.8.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-fastest-cache.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -498,7 +498,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-super-cache/"
+            "homepage": "https://wordpress.org/plugins/wp-fastest-cache/"
         },
         {
             "name": "wpackagist-theme/illdy",
